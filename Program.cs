@@ -11,13 +11,13 @@
             hash.Add("3", "not");
             hash.Add("4", "to");
             hash.Add("5", "be");
-            string hash5 = hash.Get("5");
-            string hash3 = hash.Get("3");
-
-            Console.WriteLine("Value of key 5 is :"+" "+hash5);
-            Console.WriteLine("Value of key 2 is :" + " " + hash3);
-
-           
+            //string hash5 = hash.Get("5");
+            //string hash3 = hash.Get("3");
+            //Console.WriteLine("Value of key 5 is :"+" "+hash5);
+            //Console.WriteLine("Value of key 2 is :" + " " + hash3);
+            hash.Remove("5");
+            string hash5=hash.Get("5");
+            Console.WriteLine("fifth index value is :"+hash5);
         }
     }
 }
